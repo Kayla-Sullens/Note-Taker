@@ -4,7 +4,7 @@
 This project was created using Express, in order to allow the user to enter and save notes online. It's building and using API routes to get and save the information entered by the user to display on the Notes page. My biggest struggle with this was deploying correctly to Heroku, since my port wasn't set up correctly. I did get a little bit of help on my api index.js code from my instructor, since I was struggling with how to get my notes to save correctly.
 
 ## Link
-[https://kayla-sullens.github.io/Note-Taker/](https://agile-gorge-92951-b2ca71eaae04.herokuapp.com/)https://agile-gorge-92951-b2ca71eaae04.herokuapp.com/
+https://agile-gorge-92951-b2ca71eaae04.herokuapp.com/
 
 ## Screenshots
 
