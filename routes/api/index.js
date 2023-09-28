@@ -1,4 +1,3 @@
-//let data = require('../../db/db.json');
 const router = require('express').Router();
 const fs = require('fs');
 const generateUniqueId = require('generate-unique-id');
@@ -28,17 +27,10 @@ router.post('/notes', (req, res) => {
 });
 
 // use an array, pull in data, and write file again
-// router.delete('/notes/:id', (req, res) => {
-//   const { title, text } = req.body;
-//   const deleteNote = { title, text };
-//   data.push(deleteNote);
-//   fs.writeFile('../../db/db.json', JSON.stringify(data), (err) => {
-//     if (err) {
-//       res.status(500).json(err);
-//     } else {
-//       res.status(200).json(deleteNote);
-//     }
-//   });
+// router.delete('/notes/:id', async (req, res) => {
+//   const deleteNote = req.params
+//   data = await deleteNote(id, data);
+//   res.json(data);
 // });
 
 module.exports = router;
